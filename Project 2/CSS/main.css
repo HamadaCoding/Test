@@ -1,0 +1,261 @@
+body {
+    width: auto;
+    height: auto;
+    background-image: url(../Images/Image2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 1335px;
+    height: 300px;
+    background-color: rgba(126, 252, 0, 0.295);
+    margin: 0px;
+    display: flex;
+}
+
+/* Logo In Header */
+.containLogo {
+    width: 300px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(126, 252, 0, 0.616);
+    box-shadow: 0 0 10px 5px silver;
+}
+
+/* Middle Text In Header */
+.container {
+    display: flex;
+    height: 250px;
+    margin: 50px 160px 0 168px;
+}
+
+.head {
+    font-size: 70px;
+    font-family: cursive;
+    margin: 0 0 50px 0;
+    color: green;
+    padding: 5px;
+    text-shadow: 0 0 5px silver;
+    box-shadow: 0 0 5px 5px silver;
+}
+
+/* Nav Bar */
+.top, .middle, .bottom {
+    display: block;
+    margin: -16px 0 7px 0;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    background-color: green;
+    border: solid 2px green;
+    color: silver;
+    padding: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.top:hover, .middle:hover, .bottom:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px 5px red;
+}
+
+.top {
+    border-radius: 15px 0 0 0;
+}
+
+.middle {
+    position: relative;
+    z-index: 1;
+}
+
+.bottom {
+    border-radius: 0 0 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+.headText{
+    width: fit-content;
+    font-size: 50px;
+    font-family: cursive;
+    margin: 100px 0 100px 420px;
+    padding: 10px;
+    color: green;
+    background-color: rgba(126, 252, 0, 0.616);
+    border: solid 5px rgba(32, 136, 32, 0.815);
+    border-radius: 5px;
+    text-shadow: 0 0 15px black;
+}
+
+/* Available Reserving */
+section {
+    display: inline-grid;
+    justify-content: space-around;
+    grid-template-columns: 350px 350px 350px;
+    width: 1325px;
+    margin: 0 0 0 0;
+}
+
+.nowReserves {
+    width: 350px;
+    height: 450px;
+    background-color: rgba(32, 136, 32, 0.815);
+    border: solid 5px rgba(126, 252, 0, 0.616);
+    border-radius: 5px;
+    margin: 20px 10px 0 -5px;
+}
+
+button {
+    float: right;
+    margin: 240px 20px 0 0;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: rgba(126, 252, 0, 0.616);
+    cursor: pointer;
+}
+
+.date {
+    width: 300px;
+    height: 100px;
+    margin: 20px 0 0 22.5px;
+    background-color: transparent;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+.time {
+    margin: 15px 0 0 65px;
+    font-family: cursive;
+}
+
+.players1 {
+    position: absolute;
+    width: 125px;
+    height: 175px;
+    margin: 45px 0 0 22.5px;
+    background-color: transparent;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+.players2 {
+    position: absolute;
+    width: 125px;
+    height: 175px;
+    margin: 45px 0 0 197.5px;
+    background-color: transparent;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+.team1 {
+    position: absolute;
+    margin: 5px 0 0 45px;
+    font-family: cursive;
+}
+
+.team2 {
+    position: absolute;
+    margin: 5px 0 0 220px;
+    font-family: cursive;
+}
+
+ol {
+    position: absolute;
+    margin: 2.5px 0 0 -20px;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+/* Rank Page */
+.rankContainer {
+    width: 600px;
+    height: 550px;
+    background-color: rgba(32, 136, 32, 0.815);
+    border: solid 5px rgba(126, 252, 0, 0.616);
+    border-radius: 5px;
+    margin: 20px 10px 0 -105px;
+}
+
+.rankHeadText {
+    width: fit-content;
+    font-size: 100px;
+    font-family: cursive;
+    margin: 100px 0 100px 340px;
+    padding: 10px;
+    color: green;
+    background-color: rgba(126, 252, 0, 0.616);
+    border: solid 5px rgba(32, 136, 32, 0.815);
+    border-radius: 5px;
+    text-shadow: 0 0 15px black;
+}
+
+.rankSection {
+    display: inline-grid;
+    justify-content: space-around;
+    grid-template-columns: 400px 400px;
+    width: 1325px;
+    margin: 0 0 0 0;
+}
+
+.rank-s {
+    margin: 20px 10px 50px 330px;
+}
+
+.rank {
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.super {
+    margin: 0 150px 0 150px;
+}
+
+.advanced {
+    margin: 0 115px 0 115px;
+}
+
+.upperMid {
+    margin: 0 100px 0 100px;
+}
+
+.mid {
+    margin: 0 180px 0 180px;
+}
+
+.lowerMid {
+    margin: 0 102.5px 0 102.5px;
+}
+
+.lowLevel {
+    margin: 0 110px 0 110px;
+}
+
+.noSkill {
+    margin: 0 130px 0 130px;
+}
+
+.playersList {
+    margin: 0 0 0 0;
+    line-height: 2.1;
+}
+
+.playerRank {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bolder;
+}
